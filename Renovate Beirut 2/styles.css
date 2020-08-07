@@ -1,0 +1,121 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo1{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .5));
+}
+
+.navbar-space {
+    margin-top: 77px;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.banner {
+    background: #000000;
+    background-image: url('https://i.gifer.com/9MJz.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.underline {
+    width: 150px;
+    border: 3px solid #eee;
+    margin: auto;
+  }
+
+.underline-danger {
+    width: 150px;
+    border: 3px solid #e60a0a;
+    margin: auto;
+}
+
+.cor {
+    margin: auto;
+}
+
+.cor-img {
+    border-radius: 10px;
+    width: 440px;
+    height: 400px;
+}
+
+.help {
+    background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, .95) 50%, transparent 50%), url(images/cover.jpg) center center no-repeat; 
+    background-size: cover;
+  }
+
+.help-par {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-content: center;
+    justify-content: center;
+}
+
+.button {
+  font-size: 20px;
+  color: #00FF00;
+  border-color: #00FF00;
+  border-width: 5px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 1992px) {
+    .tagline {
+      margin-left: 90px;
+    }
+    .push-btn{
+      text-align: right;
+    }
+    .social-media{
+      text-align: left;
+    }
+  }
+@media (max-width: 992px) {
+    .tagline {
+      margin-left: 5px;
+    }
+    .help {
+        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url('images/back.jpg') center no-repeat ;
+        background-size: cover;
+      }
+      .navbar-space {
+        margin-top: 0;
+    }
+    .push-btn{
+      text-align: center;
+    }
+    .social-media{
+      text-align: center;
+    }
+  }
+@media (max-width: 600px) {
+    .tagline {
+      margin-left: 5px;
+    }
+    .navbar-space {
+        margin-top: 0px;
+    } 
+    .push-btn{
+      text-align: center;
+    }
+    .social-media{
+      text-align: center;
+    }
+  }
